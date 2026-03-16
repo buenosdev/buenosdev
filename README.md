@@ -1,4 +1,4 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=0C9FFE&height=120&section=header"/>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=099EFC&height=120&section=header"/>
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=0C9FFEc&size=35&center=true&vCenter=true&width=1000&lines=HELLO,+MY+NAME+is+Davi;I'm+19+years+old;I+am+from+Campo+Grande,+MS;I+study+systems+development;Be+Welcome!+:%29)](https://git.io/typing-svg)
 
@@ -8,4 +8,4 @@
   <a href="https://wakatime.com/@14e75f44-94d0-4ad8-9a79-459b03179129"><img src="https://wakatime.com/badge/user/14e75f44-94d0-4ad8-9a79-459b03179129.svg"></a>
 </div> 
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=0C9FFE&height=120&section=footer"/>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=099EFC&height=120&section=footer"/>

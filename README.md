@@ -10,4 +10,6 @@
   <a href="https://wakatime.com/@14e75f44-94d0-4ad8-9a79-459b03179129"><img src="https://wakatime.com/badge/user/14e75f44-94d0-4ad8-9a79-459b03179129.svg"></a>
 </div> 
 
+<img src="https://raw.githubusercontent.com/gitUser/gitrepo/output/snake.svg" alt="Snake animation" />
+
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=099EFC&height=120&section=footer"/>

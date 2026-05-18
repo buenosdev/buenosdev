@@ -3,9 +3,7 @@ name: Generate snake animation
 on:
   schedule:
     - cron: "0 */12 * * *"
-
   workflow_dispatch:
-
   push:
     branches:
       - main
@@ -16,19 +14,23 @@ jobs:
       contents: write
 
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
-      - name: Generate snake.svg
-        uses: Platane/snk/svg-only@v3
+      - uses: actions/checkout@v4
+
+      - name: Generate snake GIF
+        uses: Platane/snk@v3
         with:
           github_user_name: buenosdev
           outputs: |
-            dist/snake.svg?color_snake=%230066ff&color_dots=%23001122,%23003366,%230066cc,%230099ff,%2366ccff
+            dist/snake.gif
+            dist/snake-dark.gif?palette=github-dark
 
-      - name: Push snake.svg to output branch
+      - name: Push to output branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
+          force_orphan: true

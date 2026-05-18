@@ -24,7 +24,8 @@ jobs:
         with:
           github_user_name: buenosdev
           outputs: |
-            dist/snake.svg?color_snake=#0066ff&color_dots=#001122,#003366,#0066cc,#0099ff,#66ccff
+            dist/snake.svg?color_snake=%230066ff&color_dots=%23001122,%23003366,%230066cc,%230099ff,%2366ccff
+
       - name: Push snake.svg to output branch
         uses: peaceiris/actions-gh-pages@v4
         with:

@@ -4,7 +4,11 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=0C9FFE&font=Josefin+Sans&size=35&center=true&vCenter=true&width=1000&lines=My+name+is+Davi;I'm+19+years+old;I+am+from+Campo+Grande,+MS,+Brazil;I+am+passionate+about+technology;and+an+enthusiast+of+psychology;Still+building.+Still+evolving.;Follow+the+process.)](https://git.io/typing-svg)
 
-<img src="https://raw.githubusercontent.com/buenosdev/buenosdev/output/snake.svg" alt="Snake animation" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/buenosdev/buenosdev/output/snake-dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/buenosdev/buenosdev/output/snake.gif">
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/buenosdev/buenosdev/output/snake.gif">
+</picture>
 
 <div align="center">  
   <a href="https://wakatime.com/@14e75f44-94d0-4ad8-9a79-459b03179129"><img src="https://wakatime.com/badge/user/14e75f44-94d0-4ad8-9a79-459b03179129.svg"></a>
